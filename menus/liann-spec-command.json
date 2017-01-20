@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle liann-spec-command",
+        "command": "liann-spec-command:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "liann-spec-command",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "liann-spec-command:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
